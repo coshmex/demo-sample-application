@@ -1,0 +1,41 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitCompany": "",
+    "baseName": "demoApplication",
+    "packageName": "com.coshmex.test",
+    "packageFolder": "com/coshmex/test",
+    "serverPort": 8283,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": "spring-websocket",
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "cucumber"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "es",
+    "languages": [
+      "en",
+      "es"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "5.6.1",
+    "jwtSecretKey": "NDBlMDVlYWYxZDU3OWRiZjg1OTBkZDMxN2Y3YTgxMTk5MGQzYjc4MWY2ZDk0ZGUyZTkzNTdmOGY0ZDY1ZWZjNjQzYWYxNDBhYzZhNjM1YmYwNjIxNTlkMzJjZDNiMTM5NzgxNzdmMjg2MWY2MmE1Yjc1OTcwOGY4MDcyN2E3YzI="
+  },
+  "git-provider": "GitHub",
+  "git-company": "coshmex",
+  "repository-name": "demo-sample-application"
+}
